@@ -1,10 +1,18 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { saveBooksRead } from "../../Utility/localStorage";
 
 const BookDetails = () => {
   const books = useLoaderData();
   const { title } = useParams();
   const book = books.find((book) => book.title === title);
-  console.log(book);
+  //   console.log(book);
+
+  const handleReadBook = () => {
+    saveBooksRead(title);
+    toast("Books Added to Read List");
+  };
 
   return (
     <div>
@@ -43,13 +51,20 @@ const BookDetails = () => {
           </h3>
           <span className="font-medium">Rating: {book.ratings}</span>
           <div className="space-x-5">
-            <button className="bg-[#59C6D2] px-5 py-2 rounded-md">Read</button>
+            <button
+              to={"/listedBooks"}
+              onClick={handleReadBook}
+              className="bg-[#59C6D2] px-5 py-2 rounded-md"
+            >
+              Read
+            </button>
             <button className="bg-[#59C6D2] px-5 py-2 rounded-md">
               Wishlist
             </button>
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
