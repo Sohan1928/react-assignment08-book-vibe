@@ -14,7 +14,7 @@ const Navbar = () => {
               <NavLink to="/listedBooks">Listed Books</NavLink>
             </h1>
             <li className="font-medium">
-              <NavLink to="/pagesToRead">Pages to Road</NavLink>
+              <NavLink to="/pagesToRead">Pages to Read</NavLink>
             </li>
           </ul>
         </div>
