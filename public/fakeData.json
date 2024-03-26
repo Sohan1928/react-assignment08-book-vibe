@@ -1,0 +1,80 @@
+[
+  {
+    "img": "https://i.ibb.co/tDx4FCc/img1.png",
+    "adult": "Young Adult",
+    "iden": "Identity",
+    "title": "The Shadow of the Wind",
+    "by_name": "Elena Waters",
+    "position": "Classic",
+    "ratings": "4.7",
+    "books_description": "As Celia and Marco showcase their extraordinary talents, the circus becomes a stage for their magical displays, captivating audiences with its fantastical attractions. However, as the competition intensifies, the stakes grow higher, and the consequences of their actions become increasingly perilous.",
+    "book_page": "250",
+    "publisher": "J.B. Lippincott & Co.",
+    "year_publish": "1996"
+  },
+  {
+    "img": "https://i.ibb.co/6mXZVdZ/img2.png",
+    "adult": "Young Adult",
+    "iden": "Identity",
+    "title": "Sharp Objects",
+    "by_name": "Nathan Black",
+    "position": "Fiction",
+    "ratings": "4.2",
+    "books_description": "As Celia and Marco showcase their extraordinary talents, the circus becomes a stage for their magical displays, captivating audiences with its fantastical attractions. However, as the competition intensifies, the stakes grow higher, and the consequences of their actions become increasingly perilous.",
+    "book_page": "250",
+    "publisher": "J.B. Lippincott & Co.",
+    "year_publish": "1996"
+  },
+  {
+    "img": "https://i.ibb.co/xm2zttk/img3.png",
+    "adult": "Young Adult",
+    "iden": "Identity",
+    "title": "The Night Circus",
+    "by_name": "Sophia Gray",
+    "position": "Fiction",
+    "ratings": "4.5",
+    "books_description": "As Celia and Marco showcase their extraordinary talents, the circus becomes a stage for their magical displays, captivating audiences with its fantastical attractions. However, as the competition intensifies, the stakes grow higher, and the consequences of their actions become increasingly perilous.",
+    "book_page": "250",
+    "publisher": "J.B. Lippincott & Co.",
+    "year_publish": "1996"
+  },
+  {
+    "img": "https://i.ibb.co/phTjvZ2/img4.png",
+    "adult": "Young Adult",
+    "iden": "Identity",
+    "title": "The Final Empire",
+    "by_name": "Marcus Evergreen",
+    "position": "Classic",
+    "ratings": "4.8",
+    "books_description": "As Celia and Marco showcase their extraordinary talents, the circus becomes a stage for their magical displays, captivating audiences with its fantastical attractions. However, as the competition intensifies, the stakes grow higher, and the consequences of their actions become increasingly perilous.",
+    "book_page": "250",
+    "publisher": "J.B. Lippincott & Co.",
+    "year_publish": "1996"
+  },
+  {
+    "img": "https://i.ibb.co/kgScbwS/img5.png",
+    "adult": "Young Adult",
+    "iden": "Identity",
+    "title": "The Starlit Path",
+    "by_name": "Ava Rivers",
+    "position": "Fiction",
+    "ratings": "4.6",
+    "books_description": "As Celia and Marco showcase their extraordinary talents, the circus becomes a stage for their magical displays, captivating audiences with its fantastical attractions. However, as the competition intensifies, the stakes grow higher, and the consequences of their actions become increasingly perilous.",
+    "book_page": "250",
+    "publisher": "J.B. Lippincott & Co.",
+    "year_publish": "1996"
+  },
+  {
+    "img": "https://i.ibb.co/RY9pRDF/img6.png",
+    "adult": "Young Adult",
+    "iden": "Identity",
+    "title": "The Storied Life of A.J. Fikry",
+    "by_name": "Daniel Summer",
+    "position": "Classic",
+    "ratings": "4.4",
+    "books_description": "As Celia and Marco showcase their extraordinary talents, the circus becomes a stage for their magical displays, captivating audiences with its fantastical attractions. However, as the competition intensifies, the stakes grow higher, and the consequences of their actions become increasingly perilous.",
+    "book_page": "250",
+    "publisher": "J.B. Lippincott & Co.",
+    "year_publish": "1996"
+  }
+]
