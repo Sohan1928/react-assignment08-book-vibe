@@ -19,10 +19,11 @@ const ListedBooks = () => {
       }
       setReadBooks(booksRead);
     }
-  }, []);
+  }, [books]);
+
   return (
     <div>
-      <h1>book read: {readBooks.length}</h1>
+      {/* <h1>book read: {readBooks.length}</h1> */}
       <ul>
         {readBooks.map((book) => (
           <li key={book.title}>

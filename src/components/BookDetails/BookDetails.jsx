@@ -2,16 +2,25 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { saveBooksRead } from "../../Utility/localStorage";
+import { useState } from "react";
 
 const BookDetails = () => {
   const books = useLoaderData();
   const { title } = useParams();
   const book = books.find((book) => book.title === title);
-  //   console.log(book);
+  console.log(book);
+
+  const [isBookRead, setIsBookRead] = useState(false);
 
   const handleReadBook = () => {
-    saveBooksRead(title);
+    if (!isBookRead) saveBooksRead(title);
+    setIsBookRead(true);
     toast("Books Added to Read List");
+  };
+
+  const handleWishlistBook = () => {
+    saveBooksRead(title);
+    toast("Books Added to Wishlist List");
   };
 
   return (
@@ -58,7 +67,10 @@ const BookDetails = () => {
             >
               Read
             </button>
-            <button className="bg-[#59C6D2] px-5 py-2 rounded-md">
+            <button
+              onClick={handleWishlistBook}
+              className="bg-[#59C6D2] px-5 py-2 rounded-md"
+            >
               Wishlist
             </button>
           </div>
