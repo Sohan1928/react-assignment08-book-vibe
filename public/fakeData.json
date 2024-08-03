@@ -1,6 +1,6 @@
 [
   {
-    "img": "https://i.ibb.co/tDx4FCc/img1.png",
+    "img": "img1.png",
     "adult": "Young Adult",
     "iden": "Identity",
     "title": "The Shadow of the Wind",
@@ -13,7 +13,7 @@
     "year_publish": "2002"
   },
   {
-    "img": "https://i.ibb.co/6mXZVdZ/img2.png",
+    "img": "img2.png",
     "adult": "Young Adult",
     "iden": "Identity",
     "title": "Sharp Objects",
@@ -26,7 +26,7 @@
     "year_publish": "1999"
   },
   {
-    "img": "https://i.ibb.co/xm2zttk/img3.png",
+    "img": "img3.png",
     "adult": "Young Adult",
     "iden": "Identity",
     "title": "The Night Circus",
@@ -39,7 +39,7 @@
     "year_publish": "1996"
   },
   {
-    "img": "https://i.ibb.co/phTjvZ2/img4.png",
+    "img": "img4.png",
     "adult": "Young Adult",
     "iden": "Identity",
     "title": "The Final Empire",
@@ -52,7 +52,7 @@
     "year_publish": "1990"
   },
   {
-    "img": "https://i.ibb.co/kgScbwS/img5.png",
+    "img": "img5.png",
     "adult": "Young Adult",
     "iden": "Identity",
     "title": "The Starlit Path",
@@ -65,7 +65,7 @@
     "year_publish": "1986"
   },
   {
-    "img": "https://i.ibb.co/RY9pRDF/img6.png",
+    "img": "img6.png",
     "adult": "Young Adult",
     "iden": "Identity",
     "title": "The Storied Life of A.J. Fikry",
