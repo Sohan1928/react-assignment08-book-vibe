@@ -1,12 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../layouts/Root";
 import Home from "../pages/Home";
-import ListedBooks from "../pages/ListedBooks";
 import PagesRead from "../pages/PagesRead";
 import ErrorPage from "../pages/ErrorPage";
 import BookDetails from "../pages/BookDetails";
 import JoinHub from "../pages/JoinHub";
 import SearchBooks from "../pages/SearchBooks";
+import ListedBooks from "../pages/ListedBooks";
 
 const router = createBrowserRouter([
   {

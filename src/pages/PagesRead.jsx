@@ -1,11 +1,24 @@
-import React from "react";
+import { useContext, useEffect } from "react";
+import Chart from "../components/Chart/Chart";
+import { ReadBooksContext } from "../layouts/Root";
+import { getStorage } from "../utils/localStorage";
+import { Helmet } from "react-helmet-async";
 
-const PagesRead = () => {
+const PagesToRead = () => {
+  const { setReadBooks } = useContext(ReadBooksContext);
+
+  useEffect(() => {
+    const storedData = getStorage();
+    setReadBooks(storedData);
+  }, [setReadBooks]);
   return (
-    <div>
-      <h3>Pages Read</h3>
-    </div>
+    <section className="h-[400px] md:h-[600px] bg-gray-100 text-blue-900 rounded-lg shadow-sm overflow-x-auto flex items-center justify-center">
+      <Helmet>
+        <title>Pages Read</title>
+      </Helmet>
+      <Chart />
+    </section>
   );
 };
 
-export default PagesRead;
+export default PagesToRead;
